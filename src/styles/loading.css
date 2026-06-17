@@ -14,21 +14,40 @@
 
 .loader-box {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning-icon {
+    font-size: 3.5rem;
+    color: #e00b6b;         /* Sharp magenta icon */
+    margin-bottom: 10px;
 }
 
 .welcome-text {
     font-size: 3rem;
     letter-spacing: 5px;
-    margin-bottom: 15px;
-    color: #ffffff; /* FORCE TEXT WHITE */
+    margin-bottom: 8px;
+    color: #ffffff;         /* Crisp white text */
+}
+
+.under-dev {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #a0a0a5;         /* Clean, subtle gray so it sits nicely under the title */
+    margin-bottom: 25px;    /* Pushes the loading bar down slightly */
+    font-weight: 500;
 }
 
 .loading-bar {
     width: 0;
     height: 4px;
-    background: #e00b6b; /* Matched your magenta theme */
+    background: #e00b6b;
     animation: fillBar 2.5s ease-in-out forwards;
 }
+
 
 @keyframes fillBar {
     0% { width: 0; }
