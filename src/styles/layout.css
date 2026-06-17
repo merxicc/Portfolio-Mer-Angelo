@@ -21,6 +21,9 @@
     height: 100vh;
     min-height: 100vh;
     transition: transform 0.3s ease-out;
+    filter: blur(20px);
+    opacity: 0;
+    animation: revealPortfolio 1s ease-out 3s forwards;
 }
 
 /* TOP NAVIGATION HEADER */

@@ -13,7 +13,7 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-    font-family: sans-serif; /* Optional: Sets a clean default text font */
+    font-family: sans-serif;
 }
 
 /* Base Link Reset */
