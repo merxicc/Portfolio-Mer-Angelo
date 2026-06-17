@@ -54,4 +54,9 @@ body.menu-open {
         opacity: 0.5;
         transform: translateX(75vw);
     }
+    header, 
+    .main-container,
+    footer {
+        filter: blur(2px);
+        transition: filter 0.3s ease-out; /* Makes the blur turn on smoothly */
 }
